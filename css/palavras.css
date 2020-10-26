@@ -1,0 +1,77 @@
+.eficiencia {
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3.5px) scale(0.25);
+    opacity: .9;
+}
+
+.boas-praticas {
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(0.25);
+    opacity: .5;
+}
+
+.codigo-limpo {
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px) scale(0.25);
+    opacity: .7;
+}
+
+.css3 {
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px) scale(0.25);
+    opacity: .7;
+}
+
+
+.html5 {
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.25);
+    opacity: .7;
+}
+
+.javascript {
+    top: 15%;
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px) scale(0.25);
+    opacity: .5;
+}
+
+.acessibilidade {
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3.1px) scale(0.25);
+    opacity: .9;
+}
+
+.responsivo {
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(3px) scale(0.25);
+    opacity: .9;
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px) scale(0.25);
+    opacity: .7;
+}
+
+.agilidade {
+    top: 75%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px) scale(0.25);
+    opacity: .5;
+}
+
+.design {
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.25);
+    opacity: .7;
+}

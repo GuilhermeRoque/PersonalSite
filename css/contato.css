@@ -1,0 +1,99 @@
+.dados-pessoais{
+    line-height: 2rem;
+}
+
+select:invalid{
+    color: #AAA;
+} 
+
+
+select option:not([selected]){
+    color: black;
+}
+
+
+legend,.campo-mensagem label{
+    font-weight:bold;
+}
+
+
+.campo-mensagem button,textarea{
+    display: block;
+}
+.campo-mensagem button{
+    margin-top: .5rem;
+}
+
+fieldset{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+.dados-pessoais input{
+    width: 100%;
+    
+}
+
+#nome input,#email input{
+    position: relative;
+    width: calc(100% - 2rem);
+    left: 2rem;
+    height: 32px;
+    box-sizing: border-box;
+
+}
+
+#nome,#email{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+#nome::before,#email::before{
+    content: "";
+    background-image: url(../imgs/usuario.png);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #555;
+    background-position: center;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+}
+
+#email::before{
+    content: "@";
+    background-image: none;
+    color: white;
+    text-align: center;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    
+}
+
+
+input[value="Outro"] ~ input {
+    display: none;
+}
+
+
+input[value="Outro"]:checked ~ input {
+    display: inline;
+}
+
+
+.campo-mensagem textarea{
+    width: 100%;
+    
+}

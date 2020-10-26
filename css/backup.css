@@ -1,0 +1,32 @@
+.faixa{
+    height: 600px;
+}
+.faixa0{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-bottom: 10px solid blue;
+
+}
+
+.faixa1{
+    background-color: bisque;
+
+}
+
+.container{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    perspective: 20px;
+}
+
+.quadrado{
+    position: absolute;
+   
+    width: 100px;
+    height: 100px;
+
+    bottom: 0px;
+    right: 500px;
+}

@@ -1,0 +1,57 @@
+.figuras{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figuras li:first-child{
+    flex-basis: 100%;
+}
+
+
+.figuras li{
+    background-color: floralwhite;
+    border: 10px solid black;
+    margin: 5px;
+    text-align: justify;
+    flex: 1 1 45%;
+}
+
+.figuras img{
+    width: 100%;
+
+    
+}
+
+.legenda{
+    border: 5px solid transparent;
+}    
+
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+
+}
+
+thead th{
+    background-color: rebeccapurple;
+}
+
+tbody th{
+    background-color: #851944;
+}
+
+th{
+    color: white;
+}
+
+td,th{
+    padding: 2px;
+    border: 2px solid black;
+}
+
+td[rowspan]{
+    text-align: center;
+    vertical-align: middle;
+}

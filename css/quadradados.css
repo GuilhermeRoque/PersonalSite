@@ -1,0 +1,114 @@
+
+.azul{    
+    background-color: aqua;
+    position: absolute;
+    top: 300px;
+    right: 750px;
+    
+    transform:
+        translate(-50%,-50%)
+        translateZ(10px);
+    
+}
+
+
+.preta{
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    
+    transform:
+        translate(-50%,-50%)
+        translateZ(9px);
+
+    
+
+}
+.roxa{
+    background-color: blueviolet;
+    position: absolute;
+    top: 200px;
+    right: 620px;
+
+    transform:
+        translate(-50%,-50%)
+        translateZ(8px);
+
+}
+.verde{
+    background-color: chartreuse;
+    position: absolute;
+    top: 310px;
+    right: 620px;
+
+    transform:
+        translate(-50%,-50%)
+        translateZ(7px);
+
+}
+
+.amarela{
+    background-color: yellow;
+    position: absolute;
+    top: 250px;
+    right: 120px;
+    
+    transform:
+        translate(-50%,-50%)        
+        translateZ(1px);
+
+}
+
+.vermelha{
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    right: 620px;
+
+    transform:
+        translate(-50%,-50%)
+        translateZ(2px);
+
+
+}
+
+.laranga{
+    background-color: orange;
+    position: absolute;
+    top: 310px;
+    right: 820px;
+
+    transform:
+        translate(-50%,-50%)
+        translateZ(3px);
+
+}
+
+.roza{
+    background-color: deeppink;
+    position: absolute;
+    top: 180px;
+    right: 920px;
+    
+    
+    transform:
+        translate(-50%,-50%)
+        translateZ(4px);
+
+
+}
+
+.cinza{
+    background-color: gray;
+    position: absolute;
+    top: 350px;
+    right: 920px;
+
+    transform:
+        translate(-50%,-50%)
+        translateZ(5px);
+
+}
+
+

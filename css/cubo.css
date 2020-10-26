@@ -1,0 +1,24 @@
+.face {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frente {
+  background-color: #21628E;
+  left: 0px;
+}
+.direita {
+  background-color: #D8E1EB;
+  left: 250px;
+}
+.esquerda {
+  background-color: #C3D9FF;
+  top: 250px;
+}
+.cima {
+  background-color: #17397E;
+  top: 500px;
+}

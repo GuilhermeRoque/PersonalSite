@@ -1,0 +1,22 @@
+h2{
+    color: black;
+}
+
+
+article{
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+article + article{
+    padding-top: 30px;
+    background-image: linear-gradient(to right,white,#ccc,white);
+    background-repeat: no-repeat;
+    background-size: 90% 2px;
+    background-position: top center;
+
+}
+
+footer a{
+    color: #851944;
+}

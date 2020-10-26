@@ -1,0 +1,230 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+html{
+    font-size:  100%;
+}
+
+aside,#foto-principal{
+    box-sizing: border-box;
+    border-left:    10px solid rgb(20,20,20);
+    border-bottom:  10px solid rgb(20,20,20);
+}
+
+
+#foto-principal{
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside{
+    position: absolute;
+    top: 310px;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+aside a {
+    color: inherit;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+aside li{
+    text-transform: lowercase;
+    display: block;
+}
+
+.twitter{
+    background-image: url(../imgs/twitter.png);
+}
+
+.github{
+    background-image: url(../imgs/github.png);
+}
+
+.linkedin{
+    background-image: url(../imgs/linkedin.png);
+}
+
+.icones-sociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -99999px;
+
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+main{
+    padding-bottom: 4rem;
+    float: left;
+    width: 85%;
+}
+
+
+main div{
+    padding: 30px 0;
+    width: 720px;
+    margin: auto;
+}
+
+main a {
+    color: #851944;
+}
+
+
+.rodape1 {
+    width: 100%;
+    clear: both;
+    background-color: transparent;
+    background-image: radial-gradient(ellipse at bottom left,#A518CC,#A518CC 65%,black 65%,black 70%,transparent 70%,transparent);
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    color: #F2FFFC;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+    height: 2rem;
+    opacity: .8;
+}
+
+.rodape{
+    width: 100%;
+    clear: both;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+.corpo{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text","Times New Roman",serif;
+    font-size: 120%;
+    line-height: 1.5;
+    /*Se usarmos line-height: 1.5 e a fonte tiver o tamanho de 20 pixels, a linha terá o tamanho de 30 pixels. Ou pode usar pixels*/
+}
+
+h1,h2{
+    text-indent: 0;
+    clear: both;
+    font-family: "Open Sans Condensed","Arial",sans-serif;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #FFF;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: black;
+}
+
+.titulo-principal{
+    border-bottom: 0.5rem solid rgb(20,20,20);
+    font-size: 300%;
+    background-color: #851944;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 0px;
+}
+
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+
+
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;    
+}
+
+
+main a,footer a{
+    text-decoration: none;
+    transition: .5s;
+}
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
+    color: white;
+    background-color: #C54974;
+    text-shadow: 0 0 20px #FA9;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 5px pink;
+}
+
+
+.icones-sociais a {
+    position: relative;
+}
+
+.icones-sociais a:hover:before,
+.icones-sociais a:focus:before{
+    content: attr(data-tooltip);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    text-indent: 0;
+    width: 300%;
+    background: black;
+    font-size: .75em;
+    text-shadow: 0 0 0 transparent;
+}
+
+
+.icones-sociais a:hover::after,
+.icones-sociais a:focus::after {
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}

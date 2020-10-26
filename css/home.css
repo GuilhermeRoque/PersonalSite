@@ -1,0 +1,319 @@
+
+.secao-10{
+    background-color: aquamarine;
+    display: flex;
+}
+
+
+.lista-img0{
+    display: flex;
+    border: 5px solid black;
+    height: 151px;
+    width: 960px;
+    align-self: center;
+
+}
+
+
+
+.lista-img0 li{
+    flex: 1;
+}
+
+.lista-img0 li:first-child{
+    order: 2;
+}
+.lista-img0 li:nth-child(2) {
+    order: 1;
+}
+.lista-img0 li:nth-child(3) {
+    order: 3;
+}
+
+
+
+.leia{
+    color: white;
+    width: 40ch;
+    padding: 8px;
+    background-color: #851944;
+    border: .5rem solid black;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+
+
+h1,h2{
+    text-shadow: 2px 2px  #000 ;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body{
+    -webkit-perspective: 6px;
+    perspective-origin: 50% 160px;
+
+}
+
+.palavras-header li {
+    font-size: 400%;
+ }
+
+.palavras-header, .titulo-principal {
+    transform-style: preserve-3d;
+}
+
+.palavras-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+@keyframes aparece{
+    from{
+        opacity: 0;
+        transform:  scale(0.001);
+        
+    }
+    
+}
+
+.titulo-principal {
+    font-size: 100%;
+    position: relative;
+    
+    background-color: black;
+    background-image: linear-gradient(to right, black, #C00, black);
+    
+}
+
+.titulo-principal img{
+    border-radius: 10% 50% 10% 50%/50% 10% 50% 10%;
+    height: 12rem;
+
+}
+
+.saudacao em{
+    animation: flutua 1s  infinite;
+    position: relative;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+.saudacao em:hover,.saudacao em:focus{
+    animation-play-state: paused;
+}
+@keyframes flutua{
+    from{
+        top: -5px;
+    }
+    to{
+        top:  5px;
+    }
+}
+
+.palavra-home{
+    font-weight: bold;
+    position: absolute;
+    color: #D5447E;
+    font-size: 1rem;
+    font-family: "Shadows Into Light",cursive ;
+    animation: aparece 2s;
+
+    
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+    float: none;
+    padding-bottom: 0;
+}
+
+
+
+.legenda-h1{
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.lista-img{
+    text-indent: 0;
+    box-sizing: border-box;
+    background-color: red;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border: 10px black solid;
+ 
+}
+.lista-img{
+    box-sizing: border-box;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border: 10px black solid;
+ 
+}
+.lista-img li{    
+    height: 100%;
+    float: left;
+    width: 33.3333%;
+    display: inline-block;
+}
+
+
+.lista-img img{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    border-bottom: .5rem solid black;
+    padding: 40px;
+    height: 340px;
+    position: relative;
+}
+
+.secao-0{
+    background-color: lightgoldenrodyellow;
+    background-image: linear-gradient(to bottom right,white,#E3EDF1,#79D8EE,#79D8EE,#10F0A5);
+    background-attachment: fixed;
+
+}
+
+
+.secao-1{
+    background-color: lightblue;
+    border-bottom: 0.5rem black solid;
+    background-image: linear-gradient(to bottom left,#99FABE,#99FAA5,#10F017,#C9FB36);
+    background-attachment: fixed;
+
+}
+
+.secao-2{
+    background-color: lightsalmon;
+    border-bottom: 0.5rem black solid;
+    background-image: linear-gradient(to bottom right,#F9FA8E,#F6FA2E,#FFED27,#FC9B2C,#FC7426,#FF7869,#F22C15);
+    background-attachment: fixed;
+
+}
+
+.secao-2 li{
+    margin: 16px;
+    box-sizing: border-box;
+}
+    
+
+
+.inicio-post{
+    position: absolute;
+    left: 40%;
+    top: 27%;
+    margin: 0;
+    padding: 1rem;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 30%;
+}
+
+.inicio-post{
+    display: none;
+}
+
+
+.posts a:focus + .inicio-post,
+.posts a:hover + .inicio-post{
+    display: block;
+ }
+
+.posts a:focus,
+.posts a:hover{
+    background-color: antiquewhite;
+    padding-right: 40%;
+}
+
+.ultimo-post{
+    margin: 0;
+}
+
+.leia-mais{
+    bottom: 2%;
+    color: white;
+    position: absolute;
+    right: 50%;
+    margin-right: -20ch;
+    width: 40ch;
+    background-color: #851944;
+    border: .5rem solid black;
+}
+
+
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+}
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
+   
+}
+
+
+.siga-me{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 1rem;
+    background-color: #3C1D3D;
+    padding: 1ch;
+    height: 6ch;
+    width: 30ch;
+    border: 0.2rem solid black;
+    transform-origin: 0 0;
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+
+    transform:
+        translateX(8.786ch)
+        translateX(4.2ch)
+        translateY(-4.2ch)
+        rotate(45deg);
+}
+
+.secao-0 a{
+    text-decoration: none;
+}
+
